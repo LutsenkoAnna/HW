@@ -1,18 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageTenet"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/imageDescrTenet"
+            app:srcCompat="@drawable/tenet" />
+
+        <TextView
+            android:id="@+id/nameTenet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTenet"
+            android:layout_centerHorizontal="true"
+            android:text="@string/nameTenet"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/detailTenet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTenet"
+            android:layout_centerHorizontal="true"
+            android:text="@string/detailsBtn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageGentelmen"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/imageDescrGentelmen"
+            app:srcCompat="@drawable/gentelmen" />
+
+        <TextView
+            android:id="@+id/nameGentelmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageGentelmen"
+            android:layout_centerHorizontal="true"
+            android:text="@string/nameGentelmen"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/detailGentelmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameGentelmen"
+            android:layout_centerHorizontal="true"
+            android:text="@string/detailsBtn" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="330dp">
+
+        <ImageView
+            android:id="@+id/imageTrial"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/imageDescrTrial"
+            app:srcCompat="@drawable/trial" />
+
+        <TextView
+            android:id="@+id/nameTrial"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTrial"
+            android:layout_centerHorizontal="true"
+            android:text="@string/nameTrial"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/detailTrial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTrial"
+            android:layout_centerHorizontal="true"
+            android:text="@string/detailsBtn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="330dp">
+
+        <ImageView
+            android:id="@+id/imageSoul"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/imageDescrSoul"
+            app:srcCompat="@drawable/soul" />
+
+        <TextView
+            android:id="@+id/nameSoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageSoul"
+            android:layout_centerHorizontal="true"
+            android:text="@string/nameSoul"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/detailSoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameSoul"
+            android:layout_centerHorizontal="true"
+            android:text="@string/detailsBtn" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Пригласить друга" />
+
+</RelativeLayout>
