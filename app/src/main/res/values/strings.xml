@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">HW</string>
+    <string name="btn">Книга</string>
+    <string name="detail">Детали</string>
+    <string name="name">Tenet/Довод</string>
+    <string name="imageDescription">Постер фильма Довод</string>
+    <string name="nameTenet">Довод</string>
+    <string name="detailTenet">Детали</string>
+    <string name="imageDescrTenet">Довод</string>
+    <string name="nameGentelmen">Джентельмены</string>
+    <string name="detailsBtn">Детали</string>
+    <string name="imageDescrGentelmen">Джентельмены</string>
+    <string name="imageDescrTrial">Суд над чикагской семеркой</string>
+    <string name="nameTrial">Суд на чикагской семеркой</string>
+    <string name="imageDescrSoul">Душа</string>
+    <string name="nameSoul">Душа</string>
+    <string name="like">Нравится</string>
+    <string name="comment">Комментарий</string>
+    <string name="sendBtn">Отправить</string>
 </resources>
