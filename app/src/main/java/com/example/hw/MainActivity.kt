@@ -129,17 +129,31 @@ class MainActivity : AppCompatActivity() {
             }, null)
             startActivity(share)
         }
+
+        savedInstanceState?.getInt(EXTRA_TEXT_T)?.let {
+            textViewTenet.setTextColor(it)
+        }
+        savedInstanceState?.getInt(EXTRA_TEXT_G)?.let {
+            textViewGentelmen.setTextColor(it)
+        }
+        savedInstanceState?.getInt(EXTRA_TEXT_TS)?.let {
+            textViewTrial.setTextColor(it)
+        }
+        savedInstanceState?.getInt(EXTRA_TEXT_S)?.let {
+            textViewSoul.setTextColor(it)
+        }
     }
 
     //Сохранение цвета при повороте экрана
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt(EXTRA_TEXT_T, textViewTenet.currentTextColor)
-        outState.putInt(EXTRA_TEXT_G, textViewTenet.currentTextColor)
-        outState.putInt(EXTRA_TEXT_TS, textViewTenet.currentTextColor)
-        outState.putInt(EXTRA_TEXT_S, textViewTenet.currentTextColor)
+        outState.putInt(EXTRA_TEXT_G, textViewGentelmen.currentTextColor)
+        outState.putInt(EXTRA_TEXT_TS, textViewTrial.currentTextColor)
+        outState.putInt(EXTRA_TEXT_S, textViewSoul.currentTextColor)
     }
 
+    //Получение результатов (комментарий и лайк)
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
