@@ -1,20 +1,14 @@
 <resources>
     <string name="app_name">HW</string>
-    <string name="btn">Книга</string>
-    <string name="detail">Детали</string>
-    <string name="name">Tenet/Довод</string>
-    <string name="imageDescription">Постер фильма Довод</string>
-    <string name="nameTenet">Довод</string>
-    <string name="detailTenet">Детали</string>
-    <string name="imageDescrTenet">Довод</string>
-    <string name="nameGentelmen">Джентельмены</string>
-    <string name="detailsBtn">Детали</string>
-    <string name="imageDescrGentelmen">Джентельмены</string>
-    <string name="imageDescrTrial">Суд над чикагской семеркой</string>
-    <string name="nameTrial">Суд на чикагской семеркой</string>
-    <string name="imageDescrSoul">Душа</string>
-    <string name="nameSoul">Душа</string>
-    <string name="like">Нравится</string>
-    <string name="comment">Комментарий</string>
-    <string name="sendBtn">Отправить</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="sendBtn">Send</string>
+    <string name="detailBtn">Details</string>
+    <string name="invite">Invite your friend</string>
+    <string name="title">Top movies 2020 by KinoOgon</string>
+    <string name="titleFavorite">Favorite movies</string>
+    <string name="dialogMessage">Sure you wanna out?</string>
+    <string name="inviteMessage">"There are some cool movies "</string>
+    <string name="dialogNo">No</string>
+    <string name="dialogYes">Yes</string>
 </resources>

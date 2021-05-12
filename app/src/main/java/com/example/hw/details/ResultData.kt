@@ -1,4 +1,4 @@
-package com.example.hw
+package com.example.hw.details
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

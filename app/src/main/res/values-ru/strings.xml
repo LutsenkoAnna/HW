@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW</string>
+    <string name="like">Нравится</string>
+    <string name="comment">Комментарий</string>
+    <string name="sendBtn">Отправить</string>
+    <string name="detailBtn">Детали</string>
+    <string name="invite">Пригласить друга</string>
+    <string name="title">Топ фильмов 2020 по версии КиноОгонь</string>
+    <string name="titleFavorite">Избранное</string>
+    <string name="dialogMessage">Точно хотите выйти?</string>
+    <string name="inviteMessage">"Тут есть крутые фильмы "</string>
+    <string name="dialogNo">Нет</string>
+    <string name="dialogYes">Да</string>
+</resources>

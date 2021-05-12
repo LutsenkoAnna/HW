@@ -1,4 +1,4 @@
-package com.example.hw
+package com.example.hw.details
 
 import android.app.Activity
 import android.content.Intent
@@ -9,6 +9,7 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.hw.R
 
 class DetailsActivity : AppCompatActivity() {
     companion object {
@@ -19,7 +20,7 @@ class DetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
-        intent.getParcelableExtra<MovieData>(EXTRA_DATA)?.let {
+        intent.getParcelableExtra<DetailsData>(EXTRA_DATA)?.let {
             findViewById<TextView>(R.id.name).text = it.name
             findViewById<TextView>(R.id.details).text = it.details
             findViewById<ImageView>(R.id.image).setImageResource(it.image)
