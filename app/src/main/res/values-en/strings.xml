@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW</string>
+    <string name="snackbar_cancel">Cancel</string>
+    <string name="snack_delete">" deleted from favorite"</string>
+    <string name="snack_add">" added to favorite"</string>
+    <string name="menu_invite">Invite friend</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_movies">Movies</string>
+    <string name="dialogYes">Yes</string>
+    <string name="dialogNo">No</string>
+    <string name="inviteMessage">"There are some cool movies "</string>
+    <string name="dialogMessage">Sure you wanna out?</string>
+    <string name="titleFavorite">Favorite movies</string>
+    <string name="title">Top movies 2020 by KinoOgon</string>
+    <string name="invite">Invite your friend</string>
+    <string name="detailBtn">Details</string>
+    <string name="sendBtn">Send</string>
+    <string name="comment">Comment</string>
+    <string name="like">Like</string>
+</resources>
